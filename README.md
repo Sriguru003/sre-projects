@@ -9,4 +9,4 @@ Terraform, and Splunk/Dynatrace monitoring — built as part of 45-day SRE inter
 - docker/ - Dockerfile, docker-compose
 - k8s/ - Kubernetes manifests
 - terraform/ - light AWS IaC
-- monitoring/ - Splunk/Dynatrace configs
+- monitoring/ - Splunk/Dynatrace
