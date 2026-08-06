@@ -2,4 +2,4 @@ Day1 - Kubernates Concept,started learing VS code and git as well as communicati
 
 Day2 - Resume preparation and communication
 
-
+Day 3 - Kubernates concepts, git and git hub --> push and create repository
