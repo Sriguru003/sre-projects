@@ -1,11 +1,11 @@
-Day1 - Kubernates Concept,started learing VS code and git as well as communication Practice
+Day1 (Aug 3) - Kubernates Concept,started learing VS code and git as well as communication Practice
 
-Day2 - Resume preparation and communication
+Day2 (Aug 4) - Resume preparation and communication
 
-Day 3 - Kubernates concepts, git and git hub --> push and create repository
+Day 3 (Aug 5) - Kubernates concepts, git and git hub --> push and create repository
 
-Day 4 - Wasted
+Day 4 (Aug 6) - Wasted
 
-Day 5 - Wasted
+Day 5 (Aug 7) - Wasted
 
-Day 6 - 
+Day 6 (Aug 8) - Structured the Study Plan, Communication and Architecture flow of Jcrew and AWS study plan
