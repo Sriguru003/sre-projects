@@ -9,3 +9,5 @@ Day 4 (Aug 6) - Wasted
 Day 5 (Aug 7) - Wasted
 
 Day 6 (Aug 8) - Structured the Study Plan, Communication and Architecture flow of Jcrew and AWS study plan
+
+Day 7 (Aug 9) - AI project, Resume preparation and Powerautomate
