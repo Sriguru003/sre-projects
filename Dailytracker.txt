@@ -28,4 +28,4 @@ Day 14 (Aug 16) - Architec & Kubernates cluster upgrade flow documentations
 
 Day 15 (Aug 17) - interview related study
 
-Day 16 (Aug 18) - Github action & Shell scripting 
+Day 16 (Aug 18) - Github action & Shell scripting and automation 
