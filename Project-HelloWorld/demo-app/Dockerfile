@@ -2,7 +2,7 @@
 # Runtime-only image. Assumes you already ran: mvn clean package
 # Build with:  docker build -t demo-app:1.0 .
 # ------------------------------------------------------------------
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:17-jre-alpine
 
 # Run as a non-root user (AWS security scanners flag root containers)
 RUN addgroup -S spring && adduser -S spring -G spring

@@ -15,7 +15,7 @@ public class RootController {
         return Map.of(
                 "status", "UP",
                 "service", "demo-app",
-                "try", new String[]{"/api/hello", "/api/hello?name=Ravi", "/api/greet/Ravi", "/api/info", "/actuator/health"}
+                "try", new String[]{"Hello Guru Welcome to the world of DevOps"}
         );
     }
 }
