@@ -32,4 +32,10 @@ Day 16 (Aug 18) - Github action & Shell scripting and automation
 
 Day 17 (Aug 19) - Wasted
 
-Day 18 (Aug 20) -  
+Day 18 (Aug 20) - finalized the Architecture and K8s upgrade document 
+
+Day 19 (Aug 21) - CICD
+
+Day 20 (Aug 22) - Deployed application in EC2 instance
+
+Day 21 (Aug 23) - Marriage & 
