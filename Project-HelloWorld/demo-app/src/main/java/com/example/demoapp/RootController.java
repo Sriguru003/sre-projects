@@ -15,7 +15,7 @@ public class RootController {
         return Map.of(
                 "status", "UP",
                 "service", "demo-app",
-                "try", new String[]{"Hello Guru Welcome to the world of SRE"}
+                "try", new String[]{"Hello Guru Welcome to the world of SRE3"}
         );
     }
 }
