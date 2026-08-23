@@ -11,10 +11,12 @@ name: Bulid JAR -> Docker Image -> Push -> Delpoy
 on:
   push:
     branches: [ "main" ]
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Project-HelloWorld/demo-app
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
