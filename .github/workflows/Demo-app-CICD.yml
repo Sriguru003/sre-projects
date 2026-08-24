@@ -46,5 +46,9 @@ jobs:
         username: ${{ secrets.EC2_USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-               whoami
-               ls -al
+               docker stop demo-app || true 
+               docker rm demo-app || true 
+               docker pull ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
+               docker run -d -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
+
+               
