@@ -46,9 +46,9 @@ jobs:
         username: ${{ secrets.EC2_USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
+               export PATH=$PATH:/usr/bin:/usr/local/bin
                docker stop demo-app || true 
                docker rm demo-app || true 
                docker pull ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
-               docker run -d -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
-
+               docker run -d --name demo-app -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
                
