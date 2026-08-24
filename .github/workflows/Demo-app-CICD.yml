@@ -39,7 +39,7 @@ jobs:
           context: Project-HelloWorld/demo-app
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
-    - name: D
+    - name: Login EC2 and Deploy image
       uses: appleboy/ssh-action@v1
       with:
         host: ${{ secrets.EC2_HOST }}
