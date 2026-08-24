@@ -38,4 +38,4 @@ jobs:
       with:
           context: Project-HelloWorld/demo-app
           push: true
-          tags: guruyadav/demo-app:latest
+          tags: guruyadav003/demo-app:latest
