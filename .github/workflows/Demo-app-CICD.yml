@@ -36,5 +36,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v4
       with:
+          context: Project-HelloWorld/demo-app
           push: true
           tags: guruyadav/demo-app:latest
