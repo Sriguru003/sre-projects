@@ -39,3 +39,12 @@ jobs:
           context: Project-HelloWorld/demo-app
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
+    - name: D
+      uses: appleboy/ssh-action@v1
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ${{ secrets.EC2_USERNAME }}
+        key: ${{ secrets.EC2_SSH_KEY }}
+        script: |
+               whoami
+               ls -al
